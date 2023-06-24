@@ -1,0 +1,90 @@
+.featured{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #003815;
+
+    .container{
+        display: flex;
+        width: 1200px;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #003815;
+        color: #ffffff;
+
+        .left{
+            display: flex;
+            flex-direction: column;
+            gap:30px;
+            h1{
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 48px;
+                
+                span{
+                    font-family: Libre Baskerville;
+                    font-style: italic;
+                }
+            }
+
+
+            .search{
+                display: flex;
+                margin: 0;
+                padding: 0;
+                align-items: center;
+                justify-content: space-between;
+                background-color: #ffffff;
+                border-radius: 5px;
+                .searchinput{
+                    margin: 0;
+                    padding: 0;
+                    width: 100%;
+                    input{
+                        padding: 14px;
+                        border: none;
+                        width: 97%;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+                button{
+                    // height: 100%;
+                    border: none;
+                    padding: 14px 24px;
+                    border-radius: 5px;
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                    border: none;
+                    cursor: pointer;
+                    background-color: #1DBF73;
+
+                    
+                }
+            }
+
+            .popular{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-weight: 600;
+
+                button{
+                    border: 1px solid #ffffff;
+                    background: transparent;
+                    border-radius: 14px;
+                    color: white;
+                    padding: 5px 10px;
+                    font-weight: 600;
+                }
+            }
+        }
+
+
+        .right{
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}

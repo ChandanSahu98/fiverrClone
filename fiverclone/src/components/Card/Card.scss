@@ -1,0 +1,30 @@
+.card {
+  width: 252px;
+  height: 344px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .desc {
+    font-weight: 400;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+  }
+}

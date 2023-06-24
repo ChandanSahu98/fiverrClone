@@ -18,7 +18,7 @@
         width: 1200px;
         display: flex;
         justify-content: space-between;
-        padding: 10px 0px;
+        padding: 20px 0px;
         align-items: center;
 
         .logo{
@@ -48,7 +48,7 @@
                 cursor: pointer;
             }
 
-            img{
+            .img{
                 width: 32px;
                 height: 32px;
                 object-fit: cover;
@@ -74,15 +74,14 @@
                 flex-direction: column ;
                 position: absolute;
                 padding: 10px;
-                top: 60px;
+                top: 80px;
                 right: 160px;
                 background-color: white;
                 border: 1px solid gray;
                 color: gray;
-                width: 90px;
+                width: 110px;
                 font-weight: 400;
                 border-radius: 5px;
-                align-items: center;
             }
         }
     }
