@@ -10,6 +10,8 @@ function Slide({ children, scroll, show }) {
         <InfiniteCarousel
           lazyLoad={true}
           slidesToScroll={scroll}
+          autoCycle={true}
+          cycleInterval={3000}
           slidesToShow={show}>
           {children}
         </InfiniteCarousel>

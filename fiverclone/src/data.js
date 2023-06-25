@@ -188,3 +188,56 @@ export const gigs = [
     username: "Wilton Hunt",
   },
 ];
+
+export const categories = [
+  {
+    id: 1,
+    name: "Graphics & Design",
+    img: "./images/graphics-design.svg",
+  },
+  {
+    id: 2,
+    name: "Digital Marketing",
+    img: "./images/online-marketing.svg",
+  },
+  {
+    id: 3,
+    name: "Writing & Translation",
+    img: "./images/writing-translation.svg",
+  },
+  {
+    id: 4,
+    name: "Video & Animation",
+    img: "./images/video-animation.svg",
+  },
+  {
+    id: 5,
+    name: "Music & Audio",
+    img: "./images/music-audio.svg",
+  },
+  {
+    id: 6,
+    name: "Programming & Tech",
+    img: "./images/programming.svg",
+  },
+  {
+    id: 7,
+    name: "Business",
+    img: "./images/business.svg",
+  },
+  {
+    id: 8,
+    name: "Lifestyle",
+    img: "./images/lifestyle.svg",
+  },
+  {
+    id: 9,
+    name: "Data",
+    img: "./images/data.svg",
+  },
+  {
+    id: 10,
+    name: "Photography",
+    img: "./images/photography.svg",
+  },
+];
