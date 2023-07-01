@@ -1,0 +1,41 @@
+.hero {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+
+  .container {
+    width: 1200px;
+    position: relative;
+
+    .heroimg {
+      img {
+        width: 1180px;
+        height: 300px;
+        object-fit: cover;
+      }
+    }
+
+    h1 {
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      font-size: 48px;
+      font-weight: 600;
+      color: white;
+    }
+    button {
+      position: absolute;
+      top: 60%;
+      left: 5%;
+      background-color: #1dbf73;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 25px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

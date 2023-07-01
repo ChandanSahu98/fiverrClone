@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.scss";
 import { Link } from "react-router-dom";
 
-function Card({ item }) {
+function CatCard({ item }) {
   return (
     <Link to="gigs/?cat=design">
       <div className="card">
@@ -14,4 +14,4 @@ function Card({ item }) {
   );
 }
 
-export default Card;
+export default CatCard;

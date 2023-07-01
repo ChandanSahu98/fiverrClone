@@ -3,19 +3,22 @@ import Featured from "../../components/featured/Featured";
 import Trustedby from "../../components/trustedby/Trustedby";
 import Slide from "../../components/slider/Slider";
 import { cards } from "../../data";
-import Card from "../../components/Card/Card";
+import CatCard from "../../components/Card/CatCard";
 import { TickMark } from "../../icons";
 import "./Home.scss";
-import { categories } from "../../data";
+import { categories, projects } from "../../data";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
+import HeroBanner from "../../components/hero/HeroBanner";
+import Footer from "../../components/footer/Footer";
 
 const Home = () => {
   return (
     <div className="home">
       <Featured />
       <Trustedby />
-      <Slide scroll={4} show={4}>
+      <Slide scroll={4} show={4} serviceName={"Popular Services"}>
         {cards.map((dataObj) => {
-          return <Card key={dataObj.id} item={dataObj} />;
+          return <CatCard key={dataObj.id} item={dataObj} />;
         })}
       </Slide>
 
@@ -116,6 +119,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Slide scroll={4} show={4} serviceName={"Inspiring work made on Fiverr"}>
+        {projects.map((dataObj) => {
+          return <ProjectCard key={dataObj.id} item={dataObj} />;
+        })}
+      </Slide>
+      <HeroBanner />
     </div>
   );
 };
